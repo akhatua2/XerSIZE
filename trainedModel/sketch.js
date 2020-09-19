@@ -110,8 +110,6 @@ function draw() {
   pop();
 
 
-  document.getElementById("demo").innerHTML = score;
-
   fill(255, 255, 255);
   noStroke();
   textSize(30);
