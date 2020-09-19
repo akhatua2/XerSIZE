@@ -5,6 +5,8 @@ let skeleton;
 
 let brain;
 let poseLabel = "Y";
+let score = 0;
+let flager = 0;
 
 function setup() {
   createCanvas(640, 480);
@@ -53,13 +55,16 @@ function gotResult(error, results) {
   if (results[0].confidence > 0.9) {
     poseLabel = results[0].label.toUpperCase();
     if (poseLabel == 'T') {
+      flager = 1;
       poseLabel = 'Standing';
     }
     if (poseLabel == 'J') {
       poseLabel = 'Jumping Jack';
     }
-    if (poseLabel == 'G') {
+    if ((poseLabel == 'G') && (flager == 1)) {
       poseLabel = 'Squats';
+            score += 1;
+      flager = 0;
     }
   }
   //console.log(results[0].confidence);
@@ -109,4 +114,5 @@ function draw() {
   textSize(30);
   textAlign(CENTER, CENTER);
   text(poseLabel, width / 5, height / 5);
+  text(score, width/7, height/7)
 }
