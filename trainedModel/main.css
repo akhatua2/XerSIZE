@@ -12,7 +12,7 @@
 	width: 100%;
 }
 .middleside{
-	height: 100vh;
+	height: 10vh;
 	width: 100%;
 }
 
@@ -34,7 +34,7 @@
     margin-top: auto;
     margin-bottom: auto;
 	background: orange;
-	height: 30vh;
+	height: 20vh;
 	width: 95%;
 	border-radius: 10%;
 }
@@ -59,7 +59,7 @@
     margin-right: auto;
 	background: yellow;
 	text-align: left;
-	height: 60vh;
+	height: 70vh;
 	width: 95%;
 	border-style: ridge;
 	border-radius: 0%;

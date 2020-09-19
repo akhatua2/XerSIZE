@@ -5,7 +5,7 @@
 <head>
 
 	<title>XerSIZE</title>
-	<link rel="stylesheet" href="../site/main.css">
+	<link rel="stylesheet" href="../trainedModel/main.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 	<script src="https://cdn.jsdelivr.net/npm/p5@1.1.4/lib/p5.min.js"></script>
@@ -19,15 +19,15 @@
 
 	<div class = "row no-gutters">
 
-		<div class = "col-2 no-gutters">
+		<div class = "col no-gutters">
 
 			<div class = "leftside d-flex justify-content-center align-items-center">
 
-				<div class = "col no-gutters">
+				<div class = "row no-gutters">
 
 					<div class = "profilepanel1 d-flex justify-content-center align-items-center align-center">
 
-						<img class="img_profile" src = "../site/images/male.png">
+						<img class="img_profile" src = "../site/images/default_profile_picture.jpg">
 					</div>
 
 					<div class = "profilepanel2">
@@ -38,44 +38,51 @@
 
 
 						<form class="ui form">
-							<div class="field">
-								<label>First Name</label>
-								<input type="text" name="first-name" placeholder="First Name">
-							</div>
+							
+							<div>
+								<div class="field">
+									<label>First Name</label>
+									<input type="text" name="first-name" placeholder="First Name">
+								</div>
 
-							<div class="field">
-								<label>Last Name</label>
-								<input type="text" name="last-name" placeholder="Last Name">
-							</div>
+								<div class="field">
+									<label>Last Name</label>
+									<input type="text" name="last-name" placeholder="Last Name">
+								</div>
 
-							<div class="field">
-								<label>Gender</label>
-								<input type="text">
-							</div>
 
-							<div class="field">
-								<label>Age</label>
-								<input type="number">
-							</div>
+								<div class="field">
+									<label>Gender</label>
+									<input type="text">
+								</div>
 
-							<div class="field" id="button_on_left">
-								<label>Country of Origin</label>
-								<input type="text" placeholder="United States">
-							</div>
+								<div class="field">
+									<label>Age</label>
+									<input type="number">
+								</div>
 
-							<button class="ui button" type="submit">Submit</button>
+								<div class="field">
+									<label>Email</label>
+									<input type="Email" placeholder="joe@company.org">
+								</div>
+
+								<div class="field" id="button_on_left">
+									<label>Country of Origin</label>
+									<input type="text" placeholder="United States">
+								</div>
+
+								<button class="ui button" type="submit">Enter Data</button>
+							</div>
 						</form>
 
 					</div>
-					
+
 				</div>
 			</div>
 
 		</div>
 
-		
-  <script src="sketch.js"></script>
-</body>
+	</body>
 
-"Hello World"
-</html>
+
+	</html>

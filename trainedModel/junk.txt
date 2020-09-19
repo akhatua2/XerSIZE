@@ -1,0 +1,8 @@
+<div class = "col no-gutters">
+
+			<div class = "rightside  d-flex justify-content-center align-items-center">
+
+				<script src="sketch.js"></script>
+			</div>
+
+		</div>
