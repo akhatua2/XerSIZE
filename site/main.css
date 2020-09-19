@@ -17,15 +17,15 @@
 }
 
 .leftside{
-	background: #f5e642;
+	background: #fff8a0;
 }
 
 .rightside{
-	background: #4aff9b;
+	background: #fff8a0;
 }
 
 .middleside{
-	background: #b3b2db;
+	background: #fff8d4;
 }
 
 .profilepanel1{
@@ -35,7 +35,7 @@
     margin-bottom: auto;
 	background: orange;
 	height: 30vh;
-	width: 70%;
+	width: 95%;
 	border-radius: 10%;
 }
 
@@ -49,7 +49,7 @@
 
 .profilepanel2{
 	
-	background: #f5e642;
+	background: #fff8a0;
 	height: 5vh;
 	width: 100%;
 }
@@ -59,41 +59,54 @@
     margin-right: auto;
 	background: yellow;
 	text-align: left;
-	height: 40vh;
-	width: 70%;
+	height: 20vh;
+	width: 95%;
 	border-style: ridge;
 	border-radius: 0%;
 }
 
 .graph {
-
+	margin-left: auto;
+    margin-right: auto;
 	max-width: 100%;
 	max-height: 100%;
+	
 }
 
 #mid_belowgraph1{
-	background: #a5e652;
+	background: #ffae36;
 	width: 50vh;
-	height: 10vh;
+	height: 175%;
 	text-align: center;
 	margin-left: auto;
     margin-right: auto;
     text-align: center;
-    border-style: solid;
-	border-radius: 10%;
 }
 
 #mid_belowgraph2{
 	background: blue;
-	width: 50%;
-	height: 10vh;
+	width: 50vh;
+	height: 175%;
+	margin-left: auto;
+    margin-right: auto;
 	text-align: center;
 }
 
 #mid_belowgraph3{
 	background: #d6e652;
-	width: 50%;
-	height: 150%;
+	width: 50vh;
+	height: 175%;
+	margin-left: auto;
+    margin-right: auto;
+	text-align: center;
+}
+
+#mid_belowgraph4{
+	background: #e66652;
+	width: 50vh;
+	height: 175%;
+	margin-left: auto;
+    margin-right: auto;
 	text-align: center;
 }
 
