@@ -54,16 +54,18 @@ function gotResult(error, results) {
 
   if (results[0].confidence > 0.9) {
     poseLabel = results[0].label.toUpperCase();
-    if (poseLabel == 'T') {
+    if (poseLabel === 'T') {
       flager = 1;
       poseLabel = 'Standing';
     }
-    if (poseLabel == 'J') {
+    if ((poseLabel === 'J') && (flager === 1)){
       poseLabel = 'Jumping Jack';
+      score += 1;
+      flager = 0;
     }
-    if ((poseLabel == 'G') && (flager == 1)) {
+    if ((poseLabel === 'G') && (flager === 1)) {
       poseLabel = 'Squats';
-            score += 1;
+      score += 1;
       flager = 0;
     }
   }
