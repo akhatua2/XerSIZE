@@ -5,21 +5,23 @@
   <script src="https://cdn.jsdelivr.net/npm/p5@1.1.4/lib/p5.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/p5@1.1.4/lib/addons/p5.sound.min.js"></script>
   <script src="https://unpkg.com/ml5@0.4.2/dist/ml5.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="../trainedModel/main.css">
   <meta charset="utf-8" />
   <script src="sketch.js"></script>
 </head>
 
 <body>
 
-<div class="ui segment">
-  <h2 class="ui center floated header">SCORE</h2>
-  <div class="ui clearing divider" id="scorr"></div>
-  <p>
-    Hi!! Please set your device so that your entire body fits in the video box below and start doing some squats.
-    Your score is:  <div id="score"></div>
-  Your pose is: <div id="pose"></div>
-  </p>
-</div>
+  <div class="ui segment">
+    <h2 class="ui center floated header">SCORE</h2>
+    <div class="ui clearing divider" id="score"></div>
+    <p>
+      Hi!! Please set your device so that your entire body fits in the video box below and start doing some squats.<br><br>
+      Your score is:  <div id="score"></div>
+      Your current pose is: <div id="pose"></div>
+    </p>
+  </div>
 
 </body>
 
