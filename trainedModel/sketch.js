@@ -109,11 +109,14 @@ function draw() {
   }
   pop();
 
-
+/*
   fill(255, 255, 255);
   noStroke();
   textSize(30);
   textAlign(CENTER, CENTER);
   text(poseLabel, width / 5, height / 5);
   text(score, width/7, height/7)
+*/
+  document.getElementById("score").innerHTML = score;
+  document.getElementById("pose").innerHTML = poseLabel;
 }
